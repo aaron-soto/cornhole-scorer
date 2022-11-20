@@ -28,6 +28,7 @@ body {
 .blue .score {
 	font-size: 9rem;
 	margin-bottom: 0;
+	font-family: 'Fredoka One', cursive;
 }
 .red {
 	background-color: #d00000;
@@ -52,10 +53,10 @@ body {
 }
 .on span,
 .in span {
-	width: 2rem;
+	width: 2.5rem;
 	font-size: 1.6rem;
 	font-weight: 700;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Fredoka One', cursive;
 }
 .on button,
 .in button {
@@ -66,6 +67,8 @@ body {
 	border: none;
 	margin: 0 5px;
 	color: #f1f1f1;
+	font-family: 'Fredoka One', cursive;
+	border-radius: 5px;
 }
 button.active {
 	/* border: 5px solid black; */
@@ -87,16 +90,19 @@ button.active {
 	background-color: #1e1e24;
 	border: none;
 	font-size: 1.8rem;
+	font-family: 'Fredoka One', cursive;
+	border-radius: 5px;
 }
 button#reset {
 	position: absolute;
 	top: 20px;
 	left: 50%;
 	transform: translateX(-50%);
-
+	font-family: 'Fredoka One', cursive;
 	padding: 1rem 1.3rem;
 	color: #f7ebe8;
 	background-color: #1e1e24;
 	border: none;
 	font-size: 1.8rem;
+	border-radius: 5px;
 }

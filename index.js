@@ -39,7 +39,6 @@ const handleScoreTouch = (e) => {
 		roundScores[`${team}`][`${onOrIn}`] = parseInt(clickedValue);
 
 		clickedBtn.classList.add('active');
-		console.log(roundScores);
 	}
 };
 
@@ -57,7 +56,6 @@ const handleNextRound = (e) => {
 		scores.blue = blueTempScore - redTempScore;
 	}
 
-	console.log(scores);
 	// Reset Round Score Values
 	roundScores = {
 		red: {
