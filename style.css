@@ -33,7 +33,7 @@ body {
 	background-color: #ba181b;
 }
 .blue {
-	background-color: #4361ee;
+	background-color: #324cbd;
 }
 .inputs {
 	width: 60%;
@@ -52,15 +52,16 @@ body {
 }
 .on span,
 .in span {
-	width: 3rem;
+	width: 2rem;
 	font-size: 1.6rem;
 	font-weight: 700;
+	font-family: 'Inconsolata', monospace;
 }
 .on button,
 .in button {
 	font-size: 1.6rem;
-	width: 2rem;
-	height: 2rem;
+	width: 2.3rem;
+	height: 2.3rem;
 	background-color: white;
 	border: none;
 	margin: 0 5px;
@@ -72,6 +73,7 @@ body {
 }
 button.active {
 	border: 5px solid black;
+	background-color: #e4e4e4;
 }
 
 .controls {
