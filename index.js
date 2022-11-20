@@ -47,10 +47,15 @@ const handleNextRound = (e) => {
 	e.preventDefault();
 
 	// Set total Scores
-	scores = {
-		red: (scores.red += roundScores.red.on + roundScores.red.in * 3),
-		blue: (scores.blue += roundScores.blue.on + roundScores.blue.in * 3),
-	};
+
+	let redTempScore = roundScores.red.on + roundScores.red.in * 3;
+	let blueTempScore = roundScores.blue.on + roundScores.blue.in * 3;
+
+	if (redTempScore > blueTempScore) {
+		scores.red = redTempScore - blueTempScore;
+	} else if (redTempScore < blueTempScore) {
+		scores.blue = blueTempScore - redTempScore;
+	}
 
 	console.log(scores);
 	// Reset Round Score Values
