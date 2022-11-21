@@ -80,7 +80,7 @@ button.active {
 
 .controls {
 	position: absolute;
-	bottom: 5vh;
+	top: 5vh;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -95,8 +95,8 @@ button.active {
 }
 button#reset {
 	position: absolute;
-	top: 5vh;
 	left: 50%;
+	margin-top: 2rem;
 	transform: translateX(-50%);
 	font-family: 'Fredoka One', cursive;
 	padding: 1rem 1.3rem;
